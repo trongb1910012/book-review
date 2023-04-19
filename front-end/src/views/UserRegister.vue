@@ -1,6 +1,6 @@
 <template>
     <div class="col-md-12">
-        <div class="card card-container" style=" border: solid 1px  #00e600; border-radius: 15px; box-shadow: 10px 10px 8px #CBCAFF">
+        <div class="card card-container" style=" border: solid 1px  #4663b9; border-radius: 15px; box-shadow: 10px 10px 8px #CBCAFF">
             <img
                 id="profile-img"
                 src="https://cafefcdn.com/thumb_w/650/203337114487263232/2021/8/10/photo1628565231227-1628565231358414473256.jpg"
@@ -10,7 +10,7 @@
             <Form @submit="handleRegister" :validation-schema="schema">
                 <div v-if="!successful">
                     <div class="form-group">
-                        <label for="username" style="color:  #00e600">Tên đăng nhập</label>
+                        <label for="username" style="color:  #4663b9">Tên đăng nhập</label>
                         <Field
                             name="username"
                             type="text"
@@ -19,12 +19,12 @@
                         <ErrorMessage name="username" class="error-feedback" />
                     </div>
                     <div class="form-group">
-                        <label for="email" style="color:  #00e600">E-mail</label>
+                        <label for="email" style="color:  #4663b9">E-mail</label>
                         <Field name="email" type="email" class="form-control" />
                         <ErrorMessage name="email" class="error-feedback" />
                     </div>
                     <div class="form-group">
-                        <label for="password" style="color:  #00e600">Mật khẩu</label>
+                        <label for="password" style="color:  #4663b9">Mật khẩu</label>
                         <Field
                             name="password"
                             type="password"

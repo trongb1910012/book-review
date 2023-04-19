@@ -1,6 +1,6 @@
 <template>
     <div class="col-md-12">
-        <div class="card card-container" style="border: solid 1px  #00e600; border-radius: 15px; box-shadow: 10px 10px 8px #CBCAFF">
+        <div class="card card-container" style="border: solid 1px  #4663b9; border-radius: 15px; box-shadow: 10px 10px 8px #CBCAFF">
             <img
                 id="profile-img"
                 src="https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-world-book-day-423-charity-banner-image_190995.jpg"
@@ -9,12 +9,12 @@
             />
             <Form @submit="handleLogin" :validation-schema="schema">
                 <div class="form-group">
-                    <label for="username" style="color:  #00e600; font-weight: bold">Tên đăng nhập</label>
+                    <label for="username" style="color:  #4663b9; font-weight: bold">Tên đăng nhập</label>
                     <Field name="username" type="text" class="form-control" />
                     <ErrorMessage name="username" class="error-feedback" />
                 </div>
                 <div class="form-group">
-                    <label for="password" style="color:  #00e600; font-weight: bold">Mật khẩu</label>
+                    <label for="password" style="color:  #4663b9; font-weight: bold">Mật khẩu</label>
                     <Field
                         name="password"
                         type="password"

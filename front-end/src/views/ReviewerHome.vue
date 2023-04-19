@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <h4 style="color:  #00e600">Người đánh giá</h4>
+            <h4 style="color:  #4663b9">Người đánh giá</h4>
             <ul class="list-group">
                 <li
                     class="list-group-item"
@@ -29,7 +29,7 @@
                     :key="reviewer.id"
                     @click="setActiveReviewer(reviewer, index)"    
                 >
-                    <span style="color:  #00e600">{{ reviewer.name }}</span>
+                    <span style="color:  #4663b9">{{ reviewer.name }}</span>
                 </li>
             </ul>
 

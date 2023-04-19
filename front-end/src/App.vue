@@ -6,12 +6,12 @@
                     <div class="col-4 pt-1">
                     </div>
                     <div class="col-4 text-center">
-                        <a href="/" style= "font-family: 'Arial', cursive;font-weight: bold; font-size: 30px; text-decoration: none; color:  #00e600">
+                        <a href="/" style= "font-family: 'Arial', cursive;font-weight: bold; font-size: 30px; text-decoration: none; color:  #4663b9">
                         Ứng dụng đánh giá sách</a>
                     </div>
 
                     <div v-if="currentUser" class="col-4 d-flex justify-content-end align-items-center">
-                        <router-link to="/profile" class="nav-link-profile" style="color:  #00e600">
+                        <router-link to="/profile" class="nav-link-profile" style="color:  #4663b9">
                         {{ currentUser.username }}
                         </router-link> 
                         <a class="btn btn-sm btn-outline-secondary" @click.prevent="logout">Đăng xuất</a>
@@ -54,8 +54,8 @@
         </div>
 
         <footer class="mt-7 text-center">
-            <p class="p-0 mt-2 font-weight-bold" style="color:  #00e600">CT449 Phát triển ứng dụng web</p>
-            <a href="#" style="color:  #00e600">Trở lại đầu trang</a>
+            <p class="p-0 mt-2 font-weight-bold" style="color:  #4663b9">CT449 Phát triển ứng dụng web</p>
+            <a href="#" style="color:  #4663b9">Trở lại đầu trang</a>
         </footer>
     </div>
 </template>

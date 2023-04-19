@@ -4,7 +4,7 @@
         :validation-schema="schema"    
     >
         <div class="form-group">
-            <label for="title" style="color:  #00e600">Tên</label>
+            <label for="title" style="color:  #4663b9">Tên</label>
             <Field
                 name="title"
                 type="text"
@@ -14,7 +14,7 @@
             <ErrorMessage name="title" class="error-feedback" />
         </div>
         <div class="form-group">
-            <label for="bookname" style="color:  #00e600">Tên sách</label>
+            <label for="bookname" style="color:  #4663b9">Tên sách</label>
             <Field
                 name="bookname"
                 type="bookname"
@@ -24,7 +24,7 @@
             <ErrorMessage name="bookname" class="error-feedback" /> 
         </div>
         <div>
-            <label for="author" style="color:  #00e600">Tác giả</label>
+            <label for="author" style="color:  #4663b9">Tác giả</label>
             <Field
                 name="author"
                 type="text"
@@ -34,7 +34,7 @@
             <ErrorMessage name="author" class="error-feedback" />
         </div>
         <div>
-            <label for="reviewer" style="color:  #00e600">Người đánh giá</label>
+            <label for="reviewer" style="color:  #4663b9">Người đánh giá</label>
             <Field
                 name="reviewer"
                 type="text"
@@ -44,7 +44,7 @@
             <ErrorMessage name="reviewer" class="error-feedback" />
         </div>
         <div>
-            <label for="intro" style="color:  #00e600">Giới thiệu</label>
+            <label for="intro" style="color:  #4663b9">Giới thiệu</label>
             <Field
                 name="intro"
                 as="textarea"
@@ -54,7 +54,7 @@
             <ErrorMessage name="intro" class="error-feedback" />
         </div>
         <div>
-            <label for="content" style="color:  #00e600">Đánh giá</label>
+            <label for="content" style="color:  #4663b9">Đánh giá</label>
             <Field
                 name="content"
                 as="textarea"
@@ -70,7 +70,7 @@
                 class="form-check-input"
                 v-model="bookreviewLocal.favorite"
             />
-            <label for="favorite" class="form-check-label" style="color:  #00e600">
+            <label for="favorite" class="form-check-label" style="color:  #4663b9">
                 <p>Yêu thích</p>
             </label>
         </div>

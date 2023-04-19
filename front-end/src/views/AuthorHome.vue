@@ -20,7 +20,7 @@
         </div>
 
         <div class="col-md-4">
-            <h4 style="color:  #00e600">Tác giả</h4>
+            <h4 style="color:  #4663b9">Tác giả</h4>
             <ul class="list-group">
                 <li
                     class="list-group-item"
@@ -29,7 +29,7 @@
                     :key="author.id"
                     @click="setActiveAuthor(author, index)"    
                 >
-                    <span style="color:  #00e600">{{ author.name }}</span>
+                    <span style="color:  #4663b9">{{ author.name }}</span>
                 </li>
             </ul>
 
@@ -137,12 +137,12 @@ export default {
   z-index: 2;
   color: #fff;
   background-color: #76575727;
-  border: solid 2px  #00e600;
+  border: solid 2px  #4663b9;
 }
 .list-group-item:hover {
   color: #fff;
   background-color: #76575727;
-  border: solid 2px  #00e600;
+  border: solid 2px  #4663b9;
 }
 /* .btn:hover {
     color: #756262;

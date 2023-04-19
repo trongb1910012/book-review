@@ -1,6 +1,6 @@
 <template>
     <div v-if="author" class="edit-form">
-        <h4 style="color:  #00e600;">Hiệu chỉnh Tác giả</h4>
+        <h4 style="color:  #4663b9;">Hiệu chỉnh Tác giả</h4>
         <AuthorForm
             :author="author"
             @author-submit="updateAuthor"

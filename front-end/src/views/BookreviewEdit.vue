@@ -1,6 +1,6 @@
 <template>
     <div v-if="bookreview" class="edit-form">
-        <h4 style="color:  #00e600;">Hiệu chỉnh Bài đánh giá</h4>
+        <h4 style="color:  #4663b9;">Hiệu chỉnh Bài đánh giá</h4>
         <BookreviewForm
             :bookreview="bookreview"
             @bookreview-submit="updateBookreview"

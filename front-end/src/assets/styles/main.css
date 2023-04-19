@@ -11,7 +11,7 @@ label {
 }
 
 .card {
-    background-color: #2a7c59;
+    background-color: #5eeded;
     padding: 20px 25px 30px;
     margin: 0 auto 25px;
     margin-top: 50px;
@@ -42,7 +42,7 @@ label {
     font-size: 14pt;
 }
 
-.btn {background-image: linear-gradient(to right,  #00e600 0%, #3e5058  51%,  #00e600  100%) !important}
+.btn {background-image: linear-gradient(to right,  #4663b9 0%, #3e5058  51%,  #4663b9  100%) !important}
 
 /* .btn:hover {
     color: #756262;
@@ -72,11 +72,11 @@ label {
 } */
 
 .form-control:focus {
-    color:  #00e600 !important;
+    color:  #4663b9 !important;
     background-color: #fff !important;
-    border-color:  #00e600 !important;
+    border-color:  #4663b9 !important;
     outline: 0 !important;
-    box-shadow: 0 0 0 0.1rem  #00e600 !important;
+    box-shadow: 0 0 0 0.1rem  #4663b9 !important;
 }
 
 
@@ -97,29 +97,29 @@ input[type="checkbox"] {
 }
 
 .form-control{
-    border-color:  #00e600 !important;
+    border-color:  #4663b9 !important;
     border-radius: 15px !important;
 }
 
 header{
-    border-bottom: solid 1px  #00e600 !important ;
+    border-bottom: solid 1px  #4663b9 !important ;
 }
 
 .nav-link{
-    color:  #00e600 !important;
-    border: solid 1px  #00e600 !important;
+    color:  #4663b9 !important;
+    border: solid 1px  #4663b9 !important;
     border-radius: 15px !important;
     transition-property: all !important;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
     transition-duration: 150ms !important;
-    box-shadow: inset 0 0 0 0  #00e600 !important; 
+    box-shadow: inset 0 0 0 0  #4663b9 !important; 
     color: rgba(35, 33, 33, 0.821) !important;
     transition: color .10s ease-in-out, box-shadow .3s ease-in-out !important;
 }
 
 .nav-link:focus,
 .nav-link:hover{
-    box-shadow: inset 385px 0 0 0  #00e600 !important;
+    box-shadow: inset 385px 0 0 0  #4663b9 !important;
   color: white !important;
 }
 
@@ -129,11 +129,11 @@ header{
 }
 
 .jumbotron{
-    border: solid 2px  #00e600 !important;
+    border: solid 2px  #4663b9 !important;
     border-radius: 20px !important;
 }
 footer{
-    border-top: solid 2px  #00e600 !important;
+    border-top: solid 2px  #4663b9 !important;
 }
 
 

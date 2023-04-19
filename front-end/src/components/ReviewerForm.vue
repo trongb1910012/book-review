@@ -4,7 +4,7 @@
         :validation-schema="schema"    
     >
         <div class="form-group" >
-            <label for="name" style="color:  #00e600">Tên</label>
+            <label for="name" style="color:  #4663b9">Tên</label>
             <Field
                 name="name"
                 type="name"
@@ -14,7 +14,7 @@
             <ErrorMessage name="bookname" class="error-feedback" /> 
         </div >
         <div class="form-group">
-            <label for="profile" style="color:  #00e600">Thông tin</label>
+            <label for="profile" style="color:  #4663b9">Thông tin</label>
             <Field
                 name="profile"
                 as="textarea"
@@ -31,7 +31,7 @@
                 v-model="reviewerLocal.favorite"
             />
             <label for="favorite" class="form-check-label">
-                <strong style="color:  #00e600">Yêu thích</strong>
+                <strong style="color:  #4663b9">Yêu thích</strong>
             </label>
         </div>
 

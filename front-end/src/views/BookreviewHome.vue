@@ -29,7 +29,7 @@
         <div class="col-md-12">
           <div class="row overflow-hidden flex-md-row">
             <div class="col d-flex flex-column position-static">
-              <p class="d-inline-block mb-2" style="color:  #00e600"></p>
+              <p class="d-inline-block mb-2" style="color:  #4663b9"></p>
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@
           </h4>
           <p
             class="text-justify font-italic text-right"
-            style="text-decoration: underline; font-size: 20px; color:  #00e600"
+            style="text-decoration: underline; font-size: 20px; color:  #4663b9"
           >
             Hồ Chí Minh
           </p>
@@ -58,7 +58,7 @@
       </div>
     </div>
     <div class="col-md-4">
-      <h4 style="color:  #00e600">Bài đánh giá</h4>
+      <h4 style="color:  #4663b9">Bài đánh giá</h4>
       <div class="list-group">
         <div
           class="list-group-item"
@@ -68,7 +68,7 @@
           @click="setActiveBookreview(bookreview, index)"
         >
           <div class="d-flex w-100 justify-content-between">
-            <strong class="mb-1" style="color:  #00e600">{{
+            <strong class="mb-1" style="color:  #4663b9">{{
               bookreview.title
             }}</strong>
           </div>
@@ -175,18 +175,18 @@ export default {
 <style>
 #title {
   font-family: "Playfair Display";
-  color:  #00e600;
+  color:  #4663b9;
 }
 .list-group-item.active {
   z-index: 2;
   color: #fff;
   background-color: #76575727;
-  border: solid 2px  #00e600;
+  border: solid 2px  #4663b9;
 }
 .list-group-item:hover {
   color: #fff;
   background-color: #76575727;
-  border: solid 2px  #00e600;
+  border: solid 2px  #4663b9;
 }
 /* .btn:hover {
     color: #756262;

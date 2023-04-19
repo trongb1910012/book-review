@@ -1,7 +1,7 @@
 <template>
     <div class="create-form">
         <div>
-        <h4 style="color:  #00e600">Thêm bài Người đánh giá</h4>
+        <h4 style="color:  #4663b9">Thêm bài Người đánh giá</h4>
         <ReviewerForm
             :reviewer="reviewer"
             @reviewer-submit="createReviewer"

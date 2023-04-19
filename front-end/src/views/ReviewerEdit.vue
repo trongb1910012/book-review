@@ -1,6 +1,6 @@
 <template>
     <div v-if="reviewer" class="edit-form">
-        <h4 style="color:  #00e600">Hiệu chỉnh Người đánh giá</h4>
+        <h4 style="color:  #4663b9">Hiệu chỉnh Người đánh giá</h4>
         <ReviewerForm
             :reviewer="reviewer"
             @reviewer-submit="updateReviewer"
